@@ -1,0 +1,24 @@
+.header .row {
+  height: 70px;
+}
+.sdbox {
+  height: 400px;
+
+}
+.main {
+  height:800px;
+
+}
+.border {
+  border: 5px solid red;
+}
+.no-gutter {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.no-left-gutter {
+  padding-left: 0px;
+}
+.no-right-gutter {
+  padding-right: 0px;
+}
