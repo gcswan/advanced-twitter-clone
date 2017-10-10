@@ -7,6 +7,8 @@
 }
 .main {
   height:800px;
+  display: flex;
+  flex-direction: column;
 
 }
 .border {
@@ -21,4 +23,29 @@
 }
 .no-right-gutter {
   padding-right: 0px;
+}
+
+.tweet-area {
+  height: 90%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.border-black {
+  border: 5px solid black;
+}
+
+.tweet-feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.tweet {
+  display: flex;
+  justify-content: center;
+
 }
